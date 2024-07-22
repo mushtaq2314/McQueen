@@ -1,6 +1,6 @@
 # McQueen
 
-![McQueen Logo](mcqueen.mp4) <!-- Add a logo if you have one -->
+![McQueen Logo](mcqueen.png) <!-- Add a logo if you have one -->
 
 ## Overview
 
