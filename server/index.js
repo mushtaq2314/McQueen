@@ -14,7 +14,9 @@ const secretKey = 'your-secret-key';
 //DataBase connectivity goes here...
 mongoose.connect('mongodb+srv://mohammeddmushtaq:MRiYKd0L9QQfJy7Q@cluster.7d9s434.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
 
-
+app.get('/', (req, res) => {
+    res.send('Hello, World!');
+});
 app.post('/signup', async (req, res) => {
   console.log(req.body);
   const { fname, lname, email, password, phone } = req.body;
