@@ -22,7 +22,8 @@ const Search = ({ setData }) => {
     console.log('car', car)
     console.log(arr)
     try {
-      const response = await axios.post('http://localhost:2004/search', { car:car,arr:arr });
+      // const response = await axios.post('http://localhost:2004/search', { car:car,arr:arr });
+      const response = await axios.post('https://mcqueen-server.onrender.com/search', { car:car,arr:arr });
       const { api1Data, api2Data } = response.data;
   
       // Set the states based on the backend response
