@@ -18,6 +18,7 @@ app.get('/', (req, res) => {
     res.send('Hello, World!');
 });
 app.post('/signup', async (req, res) => {
+  console.log('Signup request received');
   console.log(req.body);
   const { fname, lname, email, password, phone } = req.body;
 
@@ -41,6 +42,7 @@ app.post('/signup', async (req, res) => {
   }
 });
 app.post('/signin', async (req, res) => {
+  console.log('Signin request received');
   const { email, password } = req.body;
   console.log(req.body)
   try {
