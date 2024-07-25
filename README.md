@@ -4,7 +4,7 @@
 
 ## Overview
 
-McQueen is a modern car dealing website that provides real-time car information using RapidAPI’s car details APIs. The project aims to offer a user-friendly interface for browsing and managing car details, catering to both car dealers and buyers. Visit here https://mc-queen.netlify.app (only front-end)
+McQueen is a modern car dealing website that provides real-time car information using RapidAPI’s car details APIs. The project aims to offer a user-friendly interface for browsing and managing car details, catering to both car dealers and buyers. Visit here https://mc-queen.netlify.app
 
 ## Features
 
